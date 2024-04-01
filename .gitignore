@@ -60,3 +60,6 @@ crashlytics-build.properties
 
 /UserSettings
 *.vsconfig
+
+# Specified Files and Folders
+/Assets/Oculus/
