@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lightmapping Example/Lightmap WIP.unity
     guid: 64cc869ebef830242b40a405cbca39cc
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Nick.unity
+    guid: 912072fd9d16ea1419ff965341214419
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
