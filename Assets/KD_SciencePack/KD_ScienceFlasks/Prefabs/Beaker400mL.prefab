@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 617012226707562199}
   - component: {fileID: 7601007380659405842}
   - component: {fileID: 8963945540368150603}
+  - component: {fileID: 7407267047745279183}
   m_Layer: 0
   m_Name: Liquid
   m_TagString: Untagged
@@ -100,7 +101,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -121,8 +122,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxWobble: 0.03
-  WobbleSpeed: 1
-  Recovery: 1
+  WobbleSpeed: 0.5
+  Recovery: 0.5
+--- !u!114 &7407267047745279183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913182213476852409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41063cd63546cd84a85b860ffa80e329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8619363731634714928
 GameObject:
   m_ObjectHideFlags: 0
