@@ -9,6 +9,7 @@ TagManager:
   - LithiumChloride
   - CopperChloride
   - SodiumChloride
+  - Glasses
   layers:
   - Default
   - TransparentFX
