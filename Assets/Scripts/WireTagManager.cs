@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WireTagManager : MonoBehaviour
 {
+    private bool isOtherRendererOn;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +19,20 @@ public class WireTagManager : MonoBehaviour
             {
                 Transform liquidMaterial = other.gameObject.transform.Find("Liquid Material");
                 liquidMaterial.GetComponent<MeshRenderer>().enabled = true;
-                //liquidMaterial.GetComponent<MeshRenderer>().material = blueLiquidMaterial;
+                if (isOtherRendererOn)
+                {
+                    other.gameObject.transform.Find("White Material").GetComponent<MeshRenderer>().enabled = false;
+                    isOtherRendererOn = true;
+                }
             } else
             {
                 Transform liquidMaterial = other.gameObject.transform.Find("White Material");
-                //liquidMaterial.GetComponent<MeshRenderer>().SetMaterials(whiteLiquidMaterial);
                 liquidMaterial.GetComponent<MeshRenderer>().enabled = true;
+                if (isOtherRendererOn)
+                {
+                    other.gameObject.transform.Find("Liquid Material").GetComponent<MeshRenderer>().enabled = false;
+                    isOtherRendererOn = true;
+                }
             }
             other.gameObject.tag = gameObject.tag.ToString();
         }

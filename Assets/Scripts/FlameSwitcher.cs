@@ -76,8 +76,22 @@ public class FlameSwitcher : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        effectPlaying.Stop();
-        isBurning = false;
-        luminousFlame.Play();
+        if (other.gameObject.layer == 6)
+        {
+            effectPlaying.Stop();
+            isBurning = false;
+            luminousFlame.Play();
+
+            if (other.gameObject.tag == "CopperChloride")
+            {
+                Transform liquidMaterial = other.gameObject.transform.Find("Liquid Material");
+                liquidMaterial.GetComponent<MeshRenderer>().enabled = false;
+            }
+            else
+            {
+                Transform liquidMaterial = other.gameObject.transform.Find("White Material");
+                liquidMaterial.GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
     }
 }
