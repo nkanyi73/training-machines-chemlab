@@ -2734,6 +2734,41 @@ PrefabInstance:
       propertyPath: potassiumFlame
       value: 
       objectReference: {fileID: 1750159547}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93472034
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.35538414
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729798958351725419, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -41.634
+      objectReference: {fileID: 0}
     - target: {fileID: 8319219446184727426, guid: b6d42748e73f4c1418d142e023de8856,
         type: 3}
       propertyPath: m_Name
