@@ -10,6 +10,7 @@ TagManager:
   - CopperChloride
   - SodiumChloride
   - Glasses
+  - Coat
   layers:
   - Default
   - TransparentFX
