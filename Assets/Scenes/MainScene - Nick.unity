@@ -1233,7 +1233,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1727,7 +1727,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2143,7 +2143,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3300,7 +3300,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3495,7 +3495,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4142,6 +4142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bunsen Burner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319219446184727426, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8563605270661913033, guid: b6d42748e73f4c1418d142e023de8856,
         type: 3}
@@ -4834,7 +4839,7 @@ PrefabInstance:
     - target: {fileID: 8048556921341971843, guid: aa0ebb8fc99fc4e469a40f49330c3841,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
