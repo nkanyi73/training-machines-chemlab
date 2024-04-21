@@ -1,0 +1,115 @@
+﻿title: StartChemVR
+tags:
+---
+
+<<declare $startScene = true>>
+
+===
+
+title: WelcomeChemVR
+tags:
+---
+
+Welcome to the Chemistry Lab VR.
+
+Your first experiment is to determine metallic ions of chloride salts using a flame test. 
+
+<<jump ChemicalsIntro>>
+
+===
+
+title: ChemicalsIntro
+tags:
+---
+
+On the lab bench you can see five beakers each containing a different metal chloride solution. 
+
+The first solution is Potassium Chloride.
+
+The second solution is Lithium Chloride.
+
+The third solution is Calcium Chloride.
+
+The fourth solution is Copper Chloride.
+
+And the fifth solution is Sodium Chloride.
+
+Hold up each beaker to inspect the color of the salt solution.
+
+As you can see, only the copper chloride solution has a light blue color. The rest are clear. 
+
+<<jump BurnerSetup>>
+
+===
+
+title: BurnerSetup
+tags:
+---
+
+To execute the flame test, you will need to use the Bunsen burner to your left. 
+
+To light the burner first locate the igniter to your right and hold it ready in your hand.
+
+Then turn the valve on the burner while holding the igniter above the burner nozzle and click the igniter.
+
+The burner should ignite giving a yellow flame.
+
+Adjust the burner collar until a clear blue flame appears.
+
+<<jump PotassiumIonTest>>
+
+===
+
+title: PotassiumIonTest
+tags:
+---
+
+Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride.
+
+Hold the end of the test wire into the flame, and observe how the flame changes color.
+
+The flame should present a lilac color. A lilac color appears in the flame when Potassium ions are present.
+
+<<jump WireClean>>
+
+===
+
+title: WireClean
+tags:
+---
+
+Before testing the next solution, we must remove all the potassium chloride from the test wire.
+
+To do this, hold the end of the wire into the flame until it glows orange.
+
+Then remove the test wire from the flame and allow to cool for 7 seconds.
+
+<<jump LithiumIonTest>>
+
+===
+
+
+title: LithiumIonTest
+tags:
+---
+
+Now dip the wire into the second beaker containing Lithium Chloride and repeat the test. 
+
+The lithium chloride solution should present a crimson flame when heated by the Bunsen burner. 
+
+<<jump RepeatTest>>
+
+===
+
+title: RepeatTest
+tags:
+---
+Now repeat the test for the Calcium, Copper & Sodium Chloride solutions.
+
+Calcium Ions turn the flame Red-Orange.
+
+Copper ions turn the flame Green.
+
+Sodium ions turn the flame Orange.
+
+===
