@@ -15,11 +15,17 @@ public class StepsUIMaster : MonoBehaviour
 
     private int currentStep;
 
+    public GameObject[] beakers;
+    public Transform[] beakersResetOneTransform;
+
+    private GameObject mainCamera;
+    public GameObject resetStepOneButton;
 
     // Start is called before the first frame update
     void Start()
     {
         //dialogueRunner = FindAnyObjectByType<DialogueRunner>();
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         UpdateUI();
     }
 
@@ -51,6 +57,14 @@ public class StepsUIMaster : MonoBehaviour
             tileTextMeshPro.text = titleText[currentStep];
             descriptionTextMeshPro.text = descriptionText[currentStep];
             descriptionTextMeshPro.text = FormatDescriptionText(descriptionText[currentStep]);
+
+            switch(currentStep)
+            {
+                case 6:
+                    resetStepOneButton.SetActive(true); 
+                    break;
+
+            }
         }
         else
         {
@@ -76,36 +90,59 @@ public class StepsUIMaster : MonoBehaviour
         return formattedText;
     }
 
-    //==============================================================
+    public void StageResetControl(int stageToReset)
+    {
+        StartCoroutine(ResetTrainingStage(stageToReset));
+    }
 
-    //private string GetDialogueNodeForStep(int step)
-    //{
-    //    switch (step)
-    //    {
-    //        case 16:
-    //            nextSceneButton.SetActive(true);
-    //            nextButton.SetActive(false);
-    //            //AirtableManager.twoHandedDuration = env.StopCounter().ToString();
-    //            //airtableManager.CreateRecord();
-    //            return "";
-    //        default: return ""; // Adjust this based on your specific logic or add additional cases
-    //    }
-    //}
+    public IEnumerator ResetTrainingStage(int stageToReset)
+    {
+        // do a fade
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+
+        //do a wait
+        yield return new WaitForSeconds(2);
+
+        switch (stageToReset)
+        {
+            case 1:
+                ResetToBeginningOfStepOne();
+                break;
+       
+            case 2:
+                ResetToBeginningOfStepTwo();
+                break;
+        }
+
+        mainCamera.GetComponent<OVRScreenFade>().FadeIn();
+
+        //if stageToReset == 1 ....
+        //do the reset
+        //fade back in
+    }
+
+    public void ResetToBeginningOfStepOne()
+    {
+        currentStep = 0;
+        UpdateUI();
+        resetStepOneButton.SetActive(false);
+        //description text same as above
 
 
-    //private float GetDelayForStep(int step)
-    //{
-    //    // Adjust the delays for each step as needed
-    //    switch (step)
-    //    {
-    //        case 1: return 10f;
-    //        case 2: return 17f;
-    //        case 3: return 20f;
-    //        case 4: return 20f;
-    //        case 5: return 20f;
-    //        case 6: return 10f;
-    //        case 7: return 2f;
-    //        default: return 0f; // No delay for other steps
-    //    }
-    //}
+        for (int i = 0; i < beakers.Length; i++)
+        {
+            beakers[i].transform.position = beakersResetOneTransform[i].position;
+        }
+    }
+
+    public void ResetToBeginningOfStepTwo()
+    {
+        currentStep = 7;
+        //description text same as above
+
+        //for (int i = 0; i < beakers.Length; i++)
+        //{
+        //    beakers[i].transform.position = beakersResetOneTransform[i].position;
+        //}
+    }
 }
