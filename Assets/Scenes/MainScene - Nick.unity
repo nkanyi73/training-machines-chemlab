@@ -257,7 +257,7 @@ PrefabInstance:
     - target: {fileID: 5101846173440283451, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
       propertyPath: m_Name
-      value: Nichrome Wire (1)
+      value: Nichrome Wire Outline
       objectReference: {fileID: 0}
     - target: {fileID: 5101846173440283451, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
@@ -1928,6 +1928,7 @@ MonoBehaviour:
   - About the Experiment
   - About the Experiment
   - About the Experiment
+  - Burner Set Up
   descriptionText:
   - 'Your first experiment is to determine metallic ions of chloride salts using
     a flame test. <br><br>On the lab bench you can see five beakers each containing
@@ -1945,6 +1946,7 @@ MonoBehaviour:
   - Hold up each beaker to inspect the color of the salt solution. <br><br>As you
     can see only the copper chloride solution has a light blue color. The rest are
     clear. <br><br>Once you're done click Next to continue.
+  - 'To execute the flame test, you will need to use the Bunsen burner to your left. '
   beakers:
   - {fileID: 1487499056}
   - {fileID: 1341663446}
@@ -1958,6 +1960,8 @@ MonoBehaviour:
   - {fileID: 2047971578}
   - {fileID: 425147516}
   resetStepOneButton: {fileID: 683706762}
+  resetStepTwoButton: {fileID: 0}
+  bunsenBurner: {fileID: 1669590930}
 --- !u!1001 &1168699547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2900,6 +2904,12 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 5894284035520643790, guid: 78dd85ba17041fb49b884664b5ded580,
     type: 3}
   m_PrefabInstance: {fileID: 57741858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1669590930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8319219446184727426, guid: b6d42748e73f4c1418d142e023de8856,
+    type: 3}
+  m_PrefabInstance: {fileID: 701904501821477171}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1677190468 stripped
 GameObject:

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Yarn.Unity;
+using System;
 
 public class StepsUIMaster : MonoBehaviour
 {
@@ -19,7 +20,13 @@ public class StepsUIMaster : MonoBehaviour
     public Transform[] beakersResetOneTransform;
 
     private GameObject mainCamera;
+
+    [Header("Step One GameObjects")]
     public GameObject resetStepOneButton;
+
+    [Header("Step Two GameObjects")]
+    public GameObject resetStepTwoButton;
+    public GameObject bunsenBurner;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +70,9 @@ public class StepsUIMaster : MonoBehaviour
                 case 6:
                     resetStepOneButton.SetActive(true); 
                     break;
+                case 7:
+                    SwitchToStepTwo();
+                    break;
 
             }
         }
@@ -72,7 +82,15 @@ public class StepsUIMaster : MonoBehaviour
         }
     }
 
-  
+    private void SwitchToStepTwo()
+    {
+        // do a fade
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        resetStepOneButton.SetActive(false);
+        bunsenBurner.SetActive(true);
+
+        mainCamera.GetComponent<OVRScreenFade>().FadeIn();
+    }
 
     private string FormatDescriptionText(string description)
     {
