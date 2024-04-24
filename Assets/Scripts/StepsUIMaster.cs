@@ -41,22 +41,8 @@ public class StepsUIMaster : MonoBehaviour
         currentStep++;
         UpdateUI();
 
-        //// Check if the current step is within the valid range
-        //if (currentStep >= 0 && currentStep < titleText.Length)
-        //{
-        //    string nodeToPlay = GetDialogueNodeForStep(currentStep);
-        //    //float delay = GetDelayForStep(currentStep);
-
-        //    // Start the coroutine for the current step
-        //    //StartCoroutine(StartDialogueAfterDelay(delay, nodeToPlay));
-        //}
     }
 
-    //IEnumerator StartDialogueAfterDelay(float delay, string nodeToPlay)
-    //{
-    //    yield return new WaitForSeconds(delay);
-    //    dialogueRunner.StartDialogue(nodeToPlay);
-    //}
     public void UpdateUI()
     {
         if(currentStep >= 0 && currentStep < titleText.Length)
@@ -72,6 +58,9 @@ public class StepsUIMaster : MonoBehaviour
                     break;
                 case 7:
                     SwitchToStepTwo();
+                    break;
+                case 10:
+                    resetStepTwoButton.SetActive(true);
                     break;
 
             }
@@ -156,11 +145,13 @@ public class StepsUIMaster : MonoBehaviour
     public void ResetToBeginningOfStepTwo()
     {
         currentStep = 7;
-        //description text same as above
+        UpdateUI();
+        resetStepTwoButton.SetActive(false);
 
-        //for (int i = 0; i < beakers.Length; i++)
-        //{
-        //    beakers[i].transform.position = beakersResetOneTransform[i].position;
-        //}
+        for (int i = 0; i < beakers.Length; i++)
+        {
+            beakers[i].transform.position = beakersResetOneTransform[i].position;
+        }
+
     }
 }
