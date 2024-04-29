@@ -31,6 +31,8 @@ public class GlowController : MonoBehaviour
             currentGlowIntensity = Mathf.Lerp(currentGlowIntensity, 0.0f, Time.deltaTime * glowSpeed);
             metalMaterial.SetColor("_EmissionColor", originalColor * currentGlowIntensity);
         }
+
+        Debug.Log(currentGlowIntensity);
     }
 
     void OnTriggerEnter(Collider other)
