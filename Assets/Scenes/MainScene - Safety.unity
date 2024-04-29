@@ -3815,6 +3815,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin with Avatar
       objectReference: {fileID: 0}
+    - target: {fileID: 2790659196612604808, guid: 22de5237cdc0b724d885417b2ea0d898,
+        type: 3}
+      propertyPath: fadeOnStart
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3541202285416471495, guid: 22de5237cdc0b724d885417b2ea0d898,
         type: 3}
       propertyPath: m_LocalPosition.x
