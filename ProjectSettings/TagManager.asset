@@ -11,6 +11,7 @@ TagManager:
   - SodiumChloride
   - Glasses
   - Coat
+  - Flame
   layers:
   - Default
   - TransparentFX
