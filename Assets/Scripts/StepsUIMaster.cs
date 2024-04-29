@@ -28,6 +28,11 @@ public class StepsUIMaster : MonoBehaviour
     public GameObject resetStepTwoButton;
     public GameObject bunsenBurner;
 
+    [Header("Step Three GameObjects")]
+    public GameObject resetStepThreeButton;
+    public GameObject nichromeWire;
+    public GameObject nichromeWireTransform;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,6 +67,12 @@ public class StepsUIMaster : MonoBehaviour
                 case 10:
                     resetStepTwoButton.SetActive(true);
                     break;
+                case 11:
+                    SwitchToStepThree();
+                    break;
+                case 24:
+                    resetStepThreeButton.SetActive(true);
+                    break;
 
             }
         }
@@ -76,6 +87,17 @@ public class StepsUIMaster : MonoBehaviour
         // do a fade
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
         resetStepOneButton.SetActive(false);
+        bunsenBurner.SetActive(true);
+
+        mainCamera.GetComponent<OVRScreenFade>().FadeIn();
+    }
+
+    private void SwitchToStepThree()
+    {
+        // do a fade
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        nichromeWire.SetActive(true);
+        resetStepTwoButton.SetActive(false);
         bunsenBurner.SetActive(true);
 
         mainCamera.GetComponent<OVRScreenFade>().FadeIn();
@@ -119,13 +141,12 @@ public class StepsUIMaster : MonoBehaviour
             case 2:
                 ResetToBeginningOfStepTwo();
                 break;
+            case 3:
+                ResetToBeginningOfStepThree();
+                break;
         }
 
         mainCamera.GetComponent<OVRScreenFade>().FadeIn();
-
-        //if stageToReset == 1 ....
-        //do the reset
-        //fade back in
     }
 
     public void ResetToBeginningOfStepOne()
@@ -145,6 +166,19 @@ public class StepsUIMaster : MonoBehaviour
     public void ResetToBeginningOfStepTwo()
     {
         currentStep = 7;
+        UpdateUI();
+        resetStepTwoButton.SetActive(false);
+
+        for (int i = 0; i < beakers.Length; i++)
+        {
+            beakers[i].transform.position = beakersResetOneTransform[i].position;
+        }
+
+    }
+
+    public void ResetToBeginningOfStepThree()
+    {
+        currentStep = 11;
         UpdateUI();
         resetStepTwoButton.SetActive(false);
 
