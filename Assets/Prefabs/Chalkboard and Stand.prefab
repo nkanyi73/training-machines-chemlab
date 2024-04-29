@@ -204,7 +204,7 @@ MonoBehaviour:
   m_text: "Calcium  Chloride \nSolution"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 79ce1ac1840828e4aa0ec257ff845db3, type: 2}
-  m_sharedMaterial: {fileID: -6705290062767237276, guid: 79ce1ac1840828e4aa0ec257ff845db3,
+  m_sharedMaterial: {fileID: -6135639717406773494, guid: 79ce1ac1840828e4aa0ec257ff845db3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

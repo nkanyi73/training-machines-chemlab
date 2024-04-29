@@ -139,9 +139,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 79ce1ac1840828e4aa0ec257ff845db3, type: 2}
-  m_sharedMaterial: {fileID: -6705290062767237276, guid: 79ce1ac1840828e4aa0ec257ff845db3,
-    type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -396,7 +395,7 @@ MonoBehaviour:
   m_text: Welcome to Chemistry Lab VR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 79ce1ac1840828e4aa0ec257ff845db3, type: 2}
-  m_sharedMaterial: {fileID: -6705290062767237276, guid: 79ce1ac1840828e4aa0ec257ff845db3,
+  m_sharedMaterial: {fileID: -6135639717406773494, guid: 79ce1ac1840828e4aa0ec257ff845db3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -533,7 +532,7 @@ MonoBehaviour:
     a different metal chloride solution. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 79ce1ac1840828e4aa0ec257ff845db3, type: 2}
-  m_sharedMaterial: {fileID: -6705290062767237276, guid: 79ce1ac1840828e4aa0ec257ff845db3,
+  m_sharedMaterial: {fileID: -6135639717406773494, guid: 79ce1ac1840828e4aa0ec257ff845db3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
