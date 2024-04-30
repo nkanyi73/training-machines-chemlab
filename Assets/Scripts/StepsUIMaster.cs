@@ -31,7 +31,9 @@ public class StepsUIMaster : MonoBehaviour
     [Header("Step Three GameObjects")]
     public GameObject resetStepThreeButton;
     public GameObject nichromeWire;
-    public GameObject nichromeWireTransform;
+    public Transform nichromeWireTransform;
+
+    public QuizController quizController;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +74,9 @@ public class StepsUIMaster : MonoBehaviour
                     break;
                 case 24:
                     resetStepThreeButton.SetActive(true);
+                    break;
+                case 25:
+                    SwitchToQuizStep();
                     break;
 
             }
@@ -187,5 +192,20 @@ public class StepsUIMaster : MonoBehaviour
             beakers[i].transform.position = beakersResetOneTransform[i].position;
         }
 
+    }
+
+    public void SwitchToQuizStep()
+    {
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        resetStepThreeButton.SetActive(false);  
+
+        for (int i = 0;i < beakers.Length; i++)
+        {
+            Destroy(beakers[i]);
+        }
+        nichromeWire.transform.position = nichromeWireTransform.position;
+        quizController.InstantiateQuizElements();
+
+        mainCamera.GetComponent<OVRScreenFade>().FadeIn();
     }
 }
