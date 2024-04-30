@@ -155,7 +155,11 @@ Material:
     - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
+<<<<<<< HEAD
 --- !u!114 &1520139860622938749
+=======
+--- !u!114 &1128126930151758844
+>>>>>>> f06258f5f3cc34a86f854314107c5baeb9f437ac
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
