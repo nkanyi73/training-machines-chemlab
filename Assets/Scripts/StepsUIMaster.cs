@@ -17,6 +17,7 @@ public class StepsUIMaster : MonoBehaviour
     private int currentStep;
 
     public GameObject[] beakers;
+    public GameObject[] solutionLabels;
     public Transform[] beakersResetOneTransform;
 
     private GameObject mainCamera;
@@ -202,6 +203,7 @@ public class StepsUIMaster : MonoBehaviour
         for (int i = 0;i < beakers.Length; i++)
         {
             Destroy(beakers[i]);
+            Destroy(solutionLabels[i]);
         }
         nichromeWire.transform.position = nichromeWireTransform.position;
         quizController.InstantiateQuizElements();
