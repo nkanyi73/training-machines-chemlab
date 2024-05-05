@@ -8,6 +8,8 @@ public class QuizController : MonoBehaviour
     [Header("Instantiation Parameters")]
     public Transform[] beakerTransforms;
     public GameObject[] beakerPrefabs;
+    public Transform[] labelTransforms;
+    public GameObject[] labelPrefabs;
 
     [Header("DropDowns")]
     public TMP_Dropdown[] dropDowns;
@@ -28,6 +30,7 @@ public class QuizController : MonoBehaviour
         for (int i = 0; i < chemicalsArray.Length; i++)
         {
             Instantiate(beakerPrefabs[chemicalsArray[i]], beakerTransforms[i]);
+            Instantiate(labelPrefabs[i], labelTransforms[i]);
             
         }
     }
