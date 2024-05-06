@@ -1022,7 +1022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &202589423
 Transform:
@@ -1093,7 +1093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &298082966
 Animator:
   serializedVersion: 5
@@ -1193,10 +1193,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chalkboard and Stand - Cu
       objectReference: {fileID: 0}
+    - target: {fileID: 474985912045733705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 515013557283781204, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
       propertyPath: m_text
       value: "Copper  Chloride \nSolution"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174042677201324584, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776374464344626216, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373727174374657588, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717267619376447757, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177199261498071455, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350439575534674371, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329452654940549617, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793532762250705763, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7220855372971157767, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
@@ -1247,6 +1292,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245524057150817270, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673689651825696397, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765951672384415486, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076932821114706705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290791745087670618, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2369,6 +2439,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.7484725
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.2708007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.7984723
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.003529936
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.8327221
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235314091637079452, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0009892136
       objectReference: {fileID: 0}
     - target: {fileID: 1275634002641779682, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
@@ -4572,10 +4672,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chalkboard and Stand - Na
       objectReference: {fileID: 0}
+    - target: {fileID: 474985912045733705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 515013557283781204, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
       propertyPath: m_text
       value: "Sodium  Chloride \nSolution"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174042677201324584, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776374464344626216, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373727174374657588, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717267619376447757, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177199261498071455, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350439575534674371, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329452654940549617, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793532762250705763, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7220855372971157767, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
@@ -4627,6 +4772,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7245524057150817270, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673689651825696397, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765951672384415486, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076932821114706705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290791745087670618, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4657,10 +4827,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chalkboard and Stand - Li
       objectReference: {fileID: 0}
+    - target: {fileID: 474985912045733705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 515013557283781204, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
       propertyPath: m_text
       value: "Lithium  Chloride \nSolution"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174042677201324584, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776374464344626216, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373727174374657588, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717267619376447757, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177199261498071455, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350439575534674371, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329452654940549617, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793532762250705763, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7220855372971157767, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
@@ -4711,6 +4926,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245524057150817270, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673689651825696397, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765951672384415486, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076932821114706705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290791745087670618, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11047,6 +11287,12 @@ Transform:
   - {fileID: 2041942843}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2082953892 stripped
+SphereCollider:
+  m_CorrespondingSourceObject: {fileID: 5099917778642793524, guid: 1f32e3c704b3a3f489ce01205fcafbec,
+    type: 3}
+  m_PrefabInstance: {fileID: 5846149422560189801}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2096741055
 GameObject:
   m_ObjectHideFlags: 0
@@ -11430,6 +11676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chalkboard and Stand - K
       objectReference: {fileID: 0}
+    - target: {fileID: 474985912045733705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 515013557283781204, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
       propertyPath: m_text
@@ -11449,6 +11700,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.0154
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174042677201324584, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776374464344626216, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373727174374657588, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717267619376447757, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177199261498071455, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350439575534674371, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329452654940549617, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793532762250705763, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7220855372971157767, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
@@ -11499,6 +11790,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245524057150817270, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673689651825696397, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765951672384415486, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076932821114706705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290791745087670618, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12257,6 +12573,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chalkboard and Stand - Ca
       objectReference: {fileID: 0}
+    - target: {fileID: 474985912045733705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174042677201324584, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776374464344626216, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373727174374657588, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717267619376447757, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177199261498071455, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350439575534674371, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329452654940549617, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793532762250705763, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7220855372971157767, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12306,6 +12667,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245524057150817270, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673689651825696397, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765951672384415486, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076932821114706705, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290791745087670618, guid: 1fbf1eeaaf4c3224d9799a4c1a04966f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12572,11 +12958,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calcium Chloride Solution
       objectReference: {fileID: 0}
+    - target: {fileID: 2881510005226708083, guid: 1f32e3c704b3a3f489ce01205fcafbec,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017359729672182773, guid: 1f32e3c704b3a3f489ce01205fcafbec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5712789316334898887, guid: 1f32e3c704b3a3f489ce01205fcafbec,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 156048115}
+    - target: {fileID: 5712789316334898887, guid: 1f32e3c704b3a3f489ce01205fcafbec,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 2082953892}
     - target: {fileID: 6921269258637501829, guid: 1f32e3c704b3a3f489ce01205fcafbec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12590,7 +12991,7 @@ PrefabInstance:
     - target: {fileID: 6921269258637501829, guid: 1f32e3c704b3a3f489ce01205fcafbec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.029
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6921269258637501829, guid: 1f32e3c704b3a3f489ce01205fcafbec,
         type: 3}
@@ -12625,6 +13026,11 @@ PrefabInstance:
     - target: {fileID: 6921269258637501829, guid: 1f32e3c704b3a3f489ce01205fcafbec,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364028998443111472, guid: 1f32e3c704b3a3f489ce01205fcafbec,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12925,6 +13331,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6771127577781471228, guid: 0609ad325b108fc41877d0347a5d84ab,
         type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6771127577781471228, guid: 0609ad325b108fc41877d0347a5d84ab,
+        type: 3}
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
@@ -12956,7 +13367,7 @@ PrefabInstance:
     - target: {fileID: 8621489406580099950, guid: 0609ad325b108fc41877d0347a5d84ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.099
+      value: 1.096
       objectReference: {fileID: 0}
     - target: {fileID: 8621489406580099950, guid: 0609ad325b108fc41877d0347a5d84ab,
         type: 3}
