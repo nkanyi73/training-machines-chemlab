@@ -110,8 +110,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 848349112254667471}
   - component: {fileID: 7655386117949871580}
   - component: {fileID: 7364028998443111472}
-  - component: {fileID: 2881510005226708083}
+  - component: {fileID: 6531315556521490951}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -296,7 +296,7 @@ Transform:
   m_GameObject: {fileID: 4017359729672182773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0003, y: -0.007, z: -0.0011}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.07458791, y: 0.00025803596, z: 0.06984198}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -352,8 +352,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2881510005226708083
-MeshCollider:
+--- !u!65 &6531315556521490951
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -370,10 +370,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1.0000004}
+  m_Center: {x: 0.00000005960464, y: 0.00024414062, z: -0.00000008940698}
 --- !u!1 &6569274777914804326
 GameObject:
   m_ObjectHideFlags: 0
