@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +16,9 @@ public class QuizController : MonoBehaviour
     [Header("DropDowns")]
     public TMP_Dropdown[] dropDowns;
     private int correctAnswers;
+
+    [Header("Airtable")]
+    public AirtableManager airtableManager;
 
     private int[] chemicalsArray = new int[] { 0, 1, 2, 3, 4 };
     // Start is called before the first frame update
@@ -44,7 +49,20 @@ public class QuizController : MonoBehaviour
                 correctAnswers++;
             }
         }
-        Debug.Log(correctAnswers);
+        airtableManager.totalCorrect = correctAnswers.ToString();
+        airtableManager.totalWrong = (5 - correctAnswers).ToString();
+        airtableManager.score = ((correctAnswers / 5f) * 100f).ToString();
+        airtableManager.dateTime = DateTime.Now.ToString("dd-mm-yy HH:mm");
+
+        try
+        {
+            airtableManager.CreateRecord();
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error while creating record: " + e.Message);
+        }
+
     }
 
     // method to shuffle the array

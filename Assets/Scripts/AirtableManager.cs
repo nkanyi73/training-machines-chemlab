@@ -26,9 +26,9 @@ public class AirtableManager : MonoBehaviour
     // Data fields for recording information
     public string dateTime;
     public string uuid;
-    public string startTime;
-    public static string oneHandedDuration;
-    public static string twoHandedDuration;
+    public string totalCorrect;
+    public string totalWrong;
+    public string score;
 
     [Header("Data From Airtable")]
     // Data fields for retrieving information from Airtable
@@ -41,6 +41,10 @@ public class AirtableManager : MonoBehaviour
     public string healthFromAirtable;
     public string scoreFromAirtable;
 
+    private void Start()
+    {
+        uuid = Guid.NewGuid().ToString();
+    }
     // Method to create a new record in Airtable
     public void CreateRecord()
     {
@@ -61,8 +65,9 @@ public class AirtableManager : MonoBehaviour
         string jsonFields = "{\"fields\": {" +
                                     "\"Date\":\"" + dateTime + "\", " +
                                     "\"UUID\":\"" + uuid + "\", " +
-                                    "\"One Handed Duration\":\"" + oneHandedDuration + "\", " +
-                                    "\"Two Handed Duration\":\"" + twoHandedDuration + "\"" +
+                                    "\"Total Correct\":\"" + totalCorrect + "\", " +
+                                    "\"Total Wrong\":\"" + totalWrong + "\", " +
+                                    "\"Score\":\"" + score + "\"" +
                                     "}}";
 
         // Start the coroutine to send the API request
