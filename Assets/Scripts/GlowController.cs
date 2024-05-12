@@ -4,12 +4,14 @@ public class GlowController : MonoBehaviour
 {
     public Material metalMaterial;
     public Color glowColor = Color.red;
-    public float maxGlowIntensity = 2.0f;
-    public float glowSpeed = 1.0f;
+    public float maxGlowIntensity;
+    public float glowSpeed;
 
     public Color originalColor;
     private float currentGlowIntensity = 0.0f;
     private bool isNearFire = false;
+
+    public GameObject[] liquidMaterials;
 
     void Start()
     {
@@ -29,10 +31,9 @@ public class GlowController : MonoBehaviour
         {
             // Decrease glow intensity
             currentGlowIntensity = Mathf.Lerp(currentGlowIntensity, 0.0f, Time.deltaTime * glowSpeed);
-            metalMaterial.SetColor("_EmissionColor", originalColor * currentGlowIntensity);
+            metalMaterial.SetColor("_EmissionColor", glowColor * currentGlowIntensity);
         }
 
-        Debug.Log(currentGlowIntensity);
     }
 
     void OnTriggerEnter(Collider other)
@@ -41,6 +42,15 @@ public class GlowController : MonoBehaviour
         {
             Debug.LogError("Collision Detected");
             isNearFire = true;
+
+            for (int i = 0; i < liquidMaterials.Length; i++)
+            {
+                if (liquidMaterials[i].gameObject.GetComponent<MeshRenderer>().enabled)
+                {
+                    liquidMaterials[i].gameObject.GetComponent<MeshRenderer>().enabled = false;
+                }
+            }
+
         }
     }
 
