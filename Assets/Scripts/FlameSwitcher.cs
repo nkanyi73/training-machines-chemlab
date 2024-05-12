@@ -90,7 +90,7 @@ public class FlameSwitcher : MonoBehaviour
             else
             {
                 Transform liquidMaterial = other.gameObject.transform.Find("White Material");
-                liquidMaterial.GetComponent<MeshRenderer>().enabled = true;
+                liquidMaterial.GetComponent<MeshRenderer>().enabled = false;
             }
         }
     }
