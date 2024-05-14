@@ -20,6 +20,7 @@ public class QuizController : MonoBehaviour
     [Header("Airtable")]
     public AirtableManager airtableManager;
 
+
     private int[] chemicalsArray = new int[] { 0, 1, 2, 3, 4 };
     // Start is called before the first frame update
     void Start()
