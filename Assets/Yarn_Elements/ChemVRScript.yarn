@@ -38,13 +38,13 @@ Hold up each beaker to inspect the color of the salt solution. #line:09
 To execute the flame test, you will need to use the Bunsen burner to your left.  #line:11
 
 //Element 8
-For this experiment, the bunsen burner has been lit up for you.
+For this experiment, the bunsen burner has been lit up for you. #line:0f4ab86 
 
 //Element 9
-Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open.
+Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:0786efa 
 
 //Element 10
-Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment.
+Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:037e396 
 
 
 
@@ -86,7 +86,7 @@ The Calcium chloride solution should present a red-orange flame when heated by t
 
 
 //Element 20
-Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.  
+Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.   #line:033a7fb 
 
 //Element 21
 The Copper Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:26
@@ -94,13 +94,19 @@ The Copper Chloride solution should present a red-orange flame when heated by th
 
 
 
-//Element 20
-Now dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.  
+//Element 22
+Now dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.   #line:040bb51 
 
-//Element 21
+//Element 23
 The Sodium Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:27
 
 
+
+//Element 24
+Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:08464dc 
+
+//Element 25
+Remember all that you've learnt. #line:0cc40c5 
 
 
 
