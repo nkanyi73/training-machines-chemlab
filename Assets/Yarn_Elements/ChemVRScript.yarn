@@ -1,115 +1,115 @@
-﻿title: StartChemVR
+﻿title: WelcomeChemVR
 tags:
 ---
 
-<<declare $startScene = true>>
-
-===
-
-title: WelcomeChemVR
-tags:
----
-
+//Element 0
 Welcome to the Chemistry Lab VR. #line:01
 
-Your first experiment is to determine metallic ions of chloride salts using a flame test.  #line:02
+//Your first experiment is to determine metallic ions of chloride salts using a flame test.  #line:02
 
-<<jump ChemicalsIntro>>
+//On the lab bench you can see five beakers each containing a different metal chloride solution.  #line:03
 
-===
 
-title: ChemicalsIntro
-tags:
----
-
-On the lab bench you can see five beakers each containing a different metal chloride solution.  #line:03
-
+//Element 1
 The first solution is Potassium Chloride. #line:04
 
+//Element 2
 The second solution is Lithium Chloride. #line:05
 
+//Element 3
 The third solution is Calcium Chloride. #line:06
 
+//Element 4
 The fourth solution is Copper Chloride. #line:07
 
+//Element 5
 And the fifth solution is Sodium Chloride. #line:08
 
+
+//Element 6
 Hold up each beaker to inspect the color of the salt solution. #line:09
 
-As you can see, only the copper chloride solution has a light blue color. The rest are clear.  #line:10
+//As you can see, only the copper chloride solution has a light blue color. The rest are clear.  #line:10
 
-<<jump BurnerSetup>>
+//Once you are done click 'Next' to continue.
 
-===
 
-title: BurnerSetup
-tags:
----
-
+//Element 7
 To execute the flame test, you will need to use the Bunsen burner to your left.  #line:11
 
-To light the burner first locate the igniter to your right and hold it ready in your hand. #line:12
+//Element 8
+For this experiment, the bunsen burner has been lit up for you.
 
-Then turn the valve on the burner while holding the igniter above the burner nozzle and click the igniter. #line:13
+//Element 9
+Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open.
 
-The burner should ignite giving a yellow flame. #line:14
+//Element 10
+Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment.
 
-Adjust the burner collar until a clear blue flame appears. #line:15
 
-<<jump PotassiumIonTest>>
 
-===
-
-title: PotassiumIonTest
-tags:
----
-
+//Element 11
 Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride. #line:16
 
+//Element 12
 Hold the end of the test wire into the flame, and observe how the flame changes color. #line:17
 
+//Element 13
 The flame should present a lilac color. A lilac color appears in the flame when Potassium ions are present. #line:18
 
-<<jump WireClean>>
 
-===
 
-title: WireClean
-tags:
----
-
+//Element 14
 Before testing the next solution, we must remove all the potassium chloride from the test wire. #line:19
 
+//Element 15
 To do this, hold the end of the wire into the flame until it glows orange. #line:20
-
-Then remove the test wire from the flame and allow to cool for 7 seconds. #line:21
-
-<<jump LithiumIonTest>>
-
-===
+//Then remove the test wire from the flame and allow to cool for 7 seconds. #line:21
 
 
-title: LithiumIonTest
-tags:
----
 
+//Element 16
 Now dip the wire into the second beaker containing Lithium Chloride and repeat the test.  #line:22
 
+//Element 17
 The lithium chloride solution should present a crimson flame when heated by the Bunsen burner.  #line:23
 
-<<jump RepeatTest>>
 
-===
 
-title: RepeatTest
-tags:
----
-Now repeat the test for the Calcium, Copper & Sodium Chloride solutions. #line:24
+//Element 18
+Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.  #line:24
 
-Calcium Ions turn the flame Red-Orange. #line:25
+//Element 19
+The Calcium chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:25
 
-Copper ions turn the flame Green. #line:26
 
-Sodium ions turn the flame Orange. #line:27
+
+
+//Element 20
+Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.  
+
+//Element 21
+The Copper Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:26
+
+
+
+
+//Element 20
+Now dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.  
+
+//Element 21
+The Sodium Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:27
+
+
+
+
+
+//Now repeat the test for the Calcium, Copper & Sodium Chloride solutions. #line:24
+
+//Calcium Ions turn the flame Red-Orange. #line:25
+
+//Copper ions turn the flame Green. #line:26
+
+//Sodium ions turn the flame Orange. #line:27
 
 ===
