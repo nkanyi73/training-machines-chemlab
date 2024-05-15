@@ -611,6 +611,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &282058067 stripped
+SphereCollider:
+  m_CorrespondingSourceObject: {fileID: 3642974963969339313, guid: 8b918f61d81bb63479d0404b38d3a763,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081689492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &308129323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3981,6 +3987,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 900184208958846760, guid: 8b918f61d81bb63479d0404b38d3a763,
         type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 900184208958846760, guid: 8b918f61d81bb63479d0404b38d3a763,
+        type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 156048115}
@@ -3993,7 +4004,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colliders.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 282058067}
     - target: {fileID: 900184208958846760, guid: 8b918f61d81bb63479d0404b38d3a763,
         type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
@@ -7499,6 +7510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nichrome Wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457921392734855648, guid: 78dd85ba17041fb49b884664b5ded580,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016333591827840660, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
