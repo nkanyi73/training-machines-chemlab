@@ -3511,20 +3511,9 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: 'Hazard Awareness
-
-
-        Highlight any hazards that are around
-
-        the
-        lab with the pointer and the grip.
-
-
-        Hazards will be highlighted
-        in RED.
-
-
-        There are 4 to find.'
+      value: "Hazard Awareness\n\nHighlight any hazards that are around\nthe lab
+        with the pointer and \nthe GRIP Button.\n\nHazards will be highlighted in
+        RED.\nThere are 3 to find."
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -3565,6 +3554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736849886602644247, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5421126444753535532, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -7217,10 +7211,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2106099525}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2106099525}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -7346,6 +7364,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2106099525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106099521}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2110528334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7412,7 +7448,7 @@ PrefabInstance:
     - target: {fileID: 3777579369096705658, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.583
+      value: -0.266
       objectReference: {fileID: 0}
     - target: {fileID: 3777579369096705658, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
@@ -7422,7 +7458,7 @@ PrefabInstance:
     - target: {fileID: 3777579369096705658, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.77
+      value: -0.686
       objectReference: {fileID: 0}
     - target: {fileID: 3777579369096705658, guid: 78dd85ba17041fb49b884664b5ded580,
         type: 3}
@@ -7481,6 +7517,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2106099523}
+    - targetCorrespondingSourceObject: {fileID: 5101846173440283451, guid: 78dd85ba17041fb49b884664b5ded580,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2106099525}
   m_SourcePrefab: {fileID: 100100000, guid: 78dd85ba17041fb49b884664b5ded580, type: 3}
 --- !u!1001 &701904501821477171
 PrefabInstance:
