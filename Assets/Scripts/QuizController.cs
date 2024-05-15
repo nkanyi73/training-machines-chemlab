@@ -20,6 +20,9 @@ public class QuizController : MonoBehaviour
     [Header("Airtable")]
     public AirtableManager airtableManager;
 
+    [Header("Results")]
+    public TMP_Text resultsTitle;
+    public TMP_Text resultsBody;
 
     private int[] chemicalsArray = new int[] { 0, 1, 2, 3, 4 };
     // Start is called before the first frame update
@@ -63,6 +66,9 @@ public class QuizController : MonoBehaviour
         {
             Debug.LogError("Error while creating record: " + e.Message);
         }
+
+        resultsTitle.SetText("Your Results");
+        resultsBody.SetText("You scored "+ correctAnswers + "/5.<br><br>");
 
     }
 
