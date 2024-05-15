@@ -8,12 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lightmapping Example/Lightmap WIP.unity
     guid: 64cc869ebef830242b40a405cbca39cc
-  - enabled: 1
-    path: Assets/Scenes/MainScene - Nick.unity
-    guid: 912072fd9d16ea1419ff965341214419
   - enabled: 0
     path: Assets/Scenes/MainScene - Chris.unity
     guid: deb0c4c8aa711174fba6854b0c4ecc82
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Onboarding.unity
+    guid: bb8921a2d48a707478d093d85c9c0e5a
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Safety.unity
+    guid: 2dddf6d8178584b42a282d08e6cf3144
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Nick.unity
+    guid: 912072fd9d16ea1419ff965341214419
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}

@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SafetyBriefBlackboard : MonoBehaviour
 {
     public GameObject[] blackboradSlides;
     private int currentSlideIndex = 0;
+    private GameObject mainCamera;
 
     
     public void Start()
     {
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         //disable all slides expect slide 0
         for (int i = 1; i < blackboradSlides.Length; i++)
         {
@@ -31,5 +34,11 @@ public class SafetyBriefBlackboard : MonoBehaviour
     
     }
 
+    public void SwitchScene()
+    {
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+
+        SceneManager.LoadScene("MainScene - Nick");
+    }
 
 }
