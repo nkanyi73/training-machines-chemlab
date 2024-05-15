@@ -1,4 +1,4 @@
-﻿title: WelcomeChemVR
+﻿title: Step1
 tags:
 ---
 
@@ -32,22 +32,27 @@ Hold up each beaker to inspect the color of the salt solution. #line:09
 //As you can see, only the copper chloride solution has a light blue color. The rest are clear.  #line:10
 
 //Once you are done click 'Next' to continue.
+===
 
-
+title: Step2
+tags:
+---
 //Element 7
 To execute the flame test, you will need to use the Bunsen burner to your left.  #line:11
 
 //Element 8
-For this experiment, the bunsen burner has been lit up for you. #line:0f4ab86 
+For this experiment, the bunsen burner has been lit up for you. #line:12 
 
 //Element 9
-Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:0786efa 
+Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:13
 
 //Element 10
-Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:037e396 
+Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:14 
+===
 
-
-
+title: Step3
+tags:
+---
 //Element 11
 Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride. #line:16
 
@@ -104,10 +109,13 @@ The Sodium Chloride solution should present a red-orange flame when heated by th
 
 //Element 24
 Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:08464dc 
+===
 
+title: Step4
+tags:
+---
 //Element 25
 Remember all that you've learnt. #line:0cc40c5 
-
 
 
 //Now repeat the test for the Calcium, Copper & Sodium Chloride solutions. #line:24

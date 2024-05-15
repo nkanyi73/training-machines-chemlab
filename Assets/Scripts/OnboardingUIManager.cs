@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class OnboardingUIManager : MonoBehaviour
 {
     public TextMeshProUGUI tileTextMeshPro;
     public TextMeshProUGUI descriptionTextMeshPro;
+    public DialogueRunner dialogueRunner;
 
     public string[] titleText;
     public string[] descriptionText;
@@ -24,6 +26,7 @@ public class OnboardingUIManager : MonoBehaviour
     void Start()
     {
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        dialogueRunner = FindAnyObjectByType<DialogueRunner>();
         UpdateUI();
     }
 
@@ -83,12 +86,14 @@ public class OnboardingUIManager : MonoBehaviour
 
     public void ResetToBeginning()
     {
+        dialogueRunner.Stop();
         currentStep = 0;
         UpdateUI();
         resetButton.SetActive(false);
         SwitchSceneButton.SetActive(false) ;
         NextButton.SetActive(true);
         controllerImage.SetActive(true);
+        dialogueRunner.StartDialogue("Onboarding");
         //description text same as above
     }
 
@@ -108,11 +113,11 @@ public class OnboardingUIManager : MonoBehaviour
         return formattedText;
     }
 
-    public void SwitchScene(string sceneName)
+    public void SwitchScene()
     {
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
 
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("MainScene - Safety");
     }
 }
 

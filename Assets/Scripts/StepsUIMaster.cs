@@ -9,7 +9,7 @@ public class StepsUIMaster : MonoBehaviour
 {
     public TextMeshProUGUI tileTextMeshPro;
     public TextMeshProUGUI descriptionTextMeshPro;
-    //public DialogueRunner dialogueRunner;
+    public DialogueRunner dialogueRunner;
 
     public string[] titleText;
     public string[] descriptionText;
@@ -41,7 +41,7 @@ public class StepsUIMaster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //dialogueRunner = FindAnyObjectByType<DialogueRunner>();
+        dialogueRunner = FindAnyObjectByType<DialogueRunner>();
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         UpdateUI();
     }
@@ -94,8 +94,10 @@ public class StepsUIMaster : MonoBehaviour
     {
         // do a fade
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        dialogueRunner.Stop();
         resetStepOneButton.SetActive(false);
         bunsenBurner.SetActive(true);
+        dialogueRunner.StartDialogue("Step2");
 
         mainCamera.GetComponent<OVRScreenFade>().FadeIn();
     }
@@ -104,9 +106,11 @@ public class StepsUIMaster : MonoBehaviour
     {
         // do a fade
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        dialogueRunner.Stop();
         nichromeWire.SetActive(true);
         resetStepTwoButton.SetActive(false);
         bunsenBurner.SetActive(true);
+        dialogueRunner.StartDialogue("Step3");
 
         mainCamera.GetComponent<OVRScreenFade>().FadeIn();
     }
@@ -159,6 +163,7 @@ public class StepsUIMaster : MonoBehaviour
 
     public void ResetToBeginningOfStepOne()
     {
+        dialogueRunner.Stop();
         currentStep = 0;
         UpdateUI();
         resetStepOneButton.SetActive(false);
@@ -169,10 +174,12 @@ public class StepsUIMaster : MonoBehaviour
         {
             beakers[i].transform.position = beakersResetOneTransform[i].position;
         }
+        dialogueRunner.StartDialogue("Step1");
     }
 
     public void ResetToBeginningOfStepTwo()
     {
+        dialogueRunner.Stop();
         currentStep = 7;
         UpdateUI();
         resetStepTwoButton.SetActive(false);
@@ -181,11 +188,13 @@ public class StepsUIMaster : MonoBehaviour
         {
             beakers[i].transform.position = beakersResetOneTransform[i].position;
         }
+        //dialogueRunner.StartDialogue("Step2");
 
     }
 
     public void ResetToBeginningOfStepThree()
     {
+        dialogueRunner.Stop();
         currentStep = 11;
         UpdateUI();
         resetStepTwoButton.SetActive(false);
@@ -194,6 +203,7 @@ public class StepsUIMaster : MonoBehaviour
         {
             beakers[i].transform.position = beakersResetOneTransform[i].position;
         }
+        //dialogueRunner.StartDialogue("Step3");
 
     }
 
