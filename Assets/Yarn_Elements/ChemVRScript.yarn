@@ -2,12 +2,11 @@
 tags:
 ---
 
+3 seconds silent audio at start. #line:00
+
+
 //Element 0
-Welcome to the Chemistry Lab VR. #line:01
-
-//Your first experiment is to determine metallic ions of chloride salts using a flame test.  #line:02
-
-//On the lab bench you can see five beakers each containing a different metal chloride solution.  #line:03
+Welcome to the Chemistry Lab VR. Your first experiment is to determine metallic ions of chloride salts using a flame test. On the lab bench you can see five beakers each containing a different metal chloride solution. #line:01
 
 
 //Element 1
@@ -27,11 +26,8 @@ And the fifth solution is Sodium Chloride. #line:08
 
 
 //Element 6
-Hold up each beaker to inspect the color of the salt solution. #line:09
+Hold up each beaker to inspect the color of the salt solution. As you can see only the copper chloride solution has a light blue color. The rest are clear. Once you're done click Next to continue. #line:09
 
-//As you can see, only the copper chloride solution has a light blue color. The rest are clear.  #line:10
-
-//Once you are done click 'Next' to continue.
 ===
 
 title: Step2
@@ -47,7 +43,8 @@ For this experiment, the bunsen burner has been lit up for you. #line:12
 Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:13
 
 //Element 10
-Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:14 
+Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:14
+
 ===
 
 title: Step3
@@ -77,7 +74,7 @@ To do this, hold the end of the wire into the flame until it glows orange. #line
 Now dip the wire into the second beaker containing Lithium Chloride and repeat the test.  #line:22
 
 //Element 17
-The lithium chloride solution should present a crimson flame when heated by the Bunsen burner.  #line:23
+A crimson color appears in the flame when Lithium ions are present. Remember to clean the Nichrome wire once you're done.  #line:23
 
 
 
@@ -85,45 +82,37 @@ The lithium chloride solution should present a crimson flame when heated by the 
 Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.  #line:24
 
 //Element 19
-The Calcium chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:25
+A red-orange color appears in the flame when Calcium ions are present.<br><br>Once again clean the Nichrome wire by holding in the flame.  #line:25
 
 
 
 
 //Element 20
-Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.   #line:033a7fb 
+Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.  #line:25a
 
 //Element 21
-The Copper Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:26
+A green color appears in the flame when Copper ions are present.<br><br>Don't forget to clean the Nichrome wire once you're done.  #line:26
 
 
 
 
 //Element 22
-Now dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.   #line:040bb51 
+Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.  #line:26a
 
 //Element 23
-The Sodium Chloride solution should present a red-orange flame when heated by the Bunsen burner.  #line:27
+An orange color appears in the flame when Sodium ions are present. <br><br>Clean the Nichrome wire one last time.  #line:27
 
 
 
 //Element 24
-Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:08464dc 
+Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:28
 ===
 
 title: Step4
 tags:
 ---
 //Element 25
-Remember all that you've learnt. #line:0cc40c5 
+Remember all that you've learnt. #line:29
 
-
-//Now repeat the test for the Calcium, Copper & Sodium Chloride solutions. #line:24
-
-//Calcium Ions turn the flame Red-Orange. #line:25
-
-//Copper ions turn the flame Green. #line:26
-
-//Sodium ions turn the flame Orange. #line:27
 
 ===
