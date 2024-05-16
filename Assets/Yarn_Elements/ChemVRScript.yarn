@@ -1,32 +1,30 @@
-﻿title: Step1
+title: Step1
 tags:
 ---
 
-// 3 seconds silent audio at start. #line:00
-
 
 //Element 0
-Welcome to the Chemistry Lab VR. Your first experiment is to determine metallic ions of chloride salts using a flame test. On the lab bench you can see five beakers each containing a different metal chloride solution. #line:01
+Welcome to the Chemistry Lab VR.Your first experiment is to determine metallic ions of chloride salts using a flame test.<br><br>On the lab bench you can see five beakers each containing a different metal chloride solution. #line:0IntroChemTest
 
 
 //Element 1
-The first solution is Potassium Chloride. #line:04
+The first solution is Potassium Chloride. #line:01PotBeak
 
 //Element 2
-The second solution is Lithium Chloride. #line:05
+The second solution is Lithium Chloride. #line:02LithBeak
 
 //Element 3
-The third solution is Calcium Chloride. #line:06
+The third solution is Calcium Chloride. #line:03CalcBeak
 
 //Element 4
-The fourth solution is Copper Chloride. #line:07
+The fourth solution is Copper Chloride. #line:04CoppBeak
 
 //Element 5
-And the fifth solution is Sodium Chloride. #line:08
+And the fifth solution is Sodium Chloride. #line:05SodiBeak
 
 
 //Element 6
-Hold up each beaker to inspect the color of the salt solution. As you can see only the copper chloride solution has a light blue color. The rest are clear. Once you're done click Next to continue. #line:09
+Hold up each beaker to inspect the color of the salt solution. As you can see only the copper chloride solution has a light blue color. The rest are clear. Once you're done click Next to continue. #line:06HoldBeak
 
 ===
 
@@ -34,16 +32,16 @@ title: Step2
 tags:
 ---
 //Element 7
-To execute the flame test, you will need to use the Bunsen burner to your left.  #line:11
+To execute the flame test, you will need to use the Bunsen burner to your left. #line:07ExecuteTest
 
 //Element 8
-For this experiment, the bunsen burner has been lit up for you. #line:12 
+For this experiment, the bunsen burner has been lit up for you. #line:08LitBunsen
 
 //Element 9
-Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:13
+Notice the color of the flame.<br><br>The flame has a bluish color and burns with a roaring sound.This is a luminous flame and is produced when the airhole is open. #line:09NoticeFlame
 
 //Element 10
-Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:14
+Most of the chemistry experiments you will do in the lab will require this type of flame.<br><br>Once you're comfortable, press the Next button to continue to the next part of the experiment. #line:10MostChem
 
 ===
 
@@ -51,68 +49,68 @@ title: Step3
 tags:
 ---
 //Element 11
-Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride. #line:16
+Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride. #line:11PotTestA
 
 //Element 12
-Hold the end of the test wire into the flame, and observe how the flame changes color. #line:17
+Hold the end of the test wire into the flame, and observe how the flame changes color. #line:12PotTestB
 
 //Element 13
-The flame should present a lilac color. A lilac color appears in the flame when Potassium ions are present. #line:18
+The flame should present a lilac color. A lilac color appears in the flame when Potassium ions are present. #line:13PotTestC
 
 
 
 //Element 14
-Before testing the next solution, we must remove all the potassium chloride from the test wire. #line:19
+Before testing the next solution, we must remove all the potassium chloride from the test wire. #line:14PotCleanA
 
 //Element 15
-To do this, hold the end of the wire into the flame until it glows orange. #line:20
-//Then remove the test wire from the flame and allow to cool for 7 seconds. #line:21
+To do this, hold the end of the wire into the flame until it glows orange. Then remove the test wire from the flame and allow to cool for 7 seconds. #line:15PotCleanB
+
 
 
 
 //Element 16
-Now dip the wire into the second beaker containing Lithium Chloride and repeat the test.  #line:22
+Now dip the wire into the second beaker containing Lithium Chloride and repeat the test.<br><br>A crimson color appears in the flame when Lithium ions are present. #line:16LithTest
 
 //Element 17
-A crimson color appears in the flame when Lithium ions are present. Remember to clean the Nichrome wire once you're done.  #line:23
+Remember to clean the Nichrome wire once you're done. #line:0bc6864 
 
 
 
 //Element 18
-Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.  #line:24
+Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.<br><br>A red-orange color appears in the flame when Calcium ions are present. #line:0fa3ce4 
 
 //Element 19
-A red-orange color appears in the flame when Calcium ions are present.<br><br>Once again clean the Nichrome wire by holding in the flame.  #line:25
+Once again clean the Nichrome wire by holding in the flame. #line:0dfa83f 
 
 
 
 
 //Element 20
-Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.  #line:25a
+Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.<br><br>A green color appears in the flame when Copper ions are present. #line:0a79f69 
 
 //Element 21
-A green color appears in the flame when Copper ions are present.<br><br>Don't forget to clean the Nichrome wire once you're done.  #line:26
+Don't forget to clean the Nichrome wire once you're done. #line:059e2d9 
 
 
 
 
 //Element 22
-Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.  #line:26a
+Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.<br><br>An orange color appears in the flame when Sodium ions are present. #line:0765294 
 
 //Element 23
-An orange color appears in the flame when Sodium ions are present. <br><br>Clean the Nichrome wire one last time.  #line:27
+Clean the Nichrome wire one last time. #line:08b28bb 
 
 
 
 //Element 24
-Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:28
+Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:0906220 
 ===
 
 title: Step4
 tags:
 ---
 //Element 25
-Remember all that you've learnt. #line:29
+Remember all that you've learnt. #line:0c7ee9d 
 
 
 ===
