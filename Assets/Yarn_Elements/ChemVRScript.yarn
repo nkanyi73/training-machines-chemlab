@@ -52,10 +52,10 @@ tags:
 Now take the Nichrome wire that we also call the test wire and dip it in the first beaker containing Potassium Chloride. #line:11PotTestA
 
 //Element 12
-Hold the end of the test wire into the flame, and observe how the flame changes color. #line:12PotTestB
+Hold the end of the test wire into the flame, and observe how the flame changes color.<br><br>The flame should present a lilac color. #line:12PotTestB
 
 //Element 13
-The flame should present a lilac color. A lilac color appears in the flame when Potassium ions are present. #line:13PotTestC
+A lilac color appears in the flame when Potassium ions are present. #line:13PotTestC
 
 
 
@@ -72,45 +72,44 @@ To do this, hold the end of the wire into the flame until it glows orange. Then 
 Now dip the wire into the second beaker containing Lithium Chloride and repeat the test.<br><br>A crimson color appears in the flame when Lithium ions are present. #line:16LithTest
 
 //Element 17
-Remember to clean the Nichrome wire once you're done. #line:0bc6864 
+Remember to clean the Nichrome wire once you're done. #line:17LithClean
 
 
 
 //Element 18
-Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.<br><br>A red-orange color appears in the flame when Calcium ions are present. #line:0fa3ce4 
+Now dip the wire into the third beaker containing Calcium Chloride and repeat the test.<br><br>A red-orange color appears in the flame when Calcium ions are present. #line:18CalcTest
 
 //Element 19
-Once again clean the Nichrome wire by holding in the flame. #line:0dfa83f 
+Once again clean the Nichrome wire by holding in the flame. #line:19CalcClean
 
 
 
 
 //Element 20
-Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.<br><br>A green color appears in the flame when Copper ions are present. #line:0a79f69 
+Now dip the wire into the fouth beaker containing Copper Chloride and repeat the test.<br><br>A green color appears in the flame when Copper ions are present. #line:20CoppTest
 
 //Element 21
-Don't forget to clean the Nichrome wire once you're done. #line:059e2d9 
+Don't forget to clean the Nichrome wire once you're done. #line:21CoppClean
 
 
 
 
 //Element 22
-Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.<br><br>An orange color appears in the flame when Sodium ions are present. #line:0765294 
+Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat the test.<br><br>An orange color appears in the flame when Sodium ions are present. #line:22SodiTest
 
 //Element 23
-Clean the Nichrome wire one last time. #line:08b28bb 
+Clean the Nichrome wire one last time. #line:23SodiClean
 
 
 
 //Element 24
-Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:0906220 
+Congratulations on reaching the end of the experiment. Proceed to the test section if you're comfortable or replay the experience. #line:24Congrats
 ===
 
 title: Step4
 tags:
 ---
 //Element 25
-Remember all that you've learnt. #line:0c7ee9d 
-
+Remember all that you've learnt. #line:25Remember
 
 ===
