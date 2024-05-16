@@ -7642,7 +7642,7 @@ Transform:
   m_GameObject: {fileID: 1087433283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.08764973, z: -0, w: 0.9961514}
-  m_LocalPosition: {x: 1.21, y: 0.732, z: 0.38}
+  m_LocalPosition: {x: 1.317, y: 0.732, z: 0.829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7775,8 +7775,10 @@ MonoBehaviour:
   - Clean the Nichrome wire one last time.
   - Congratulations on reaching the end of the experiment. Proceed to the test section
     if you're comfortable or replay the experience.
-  - Remember all that you've learnt.<br><br>There is an iPad on your right. Use that
-    to fill in your answers.<br><br>Good luck!!
+  - To test your new skills the beakers are now rearranged and labelled A to E.<br><br>Repeat
+    the test as you have been shown and record which chemical you think is in each
+    beaker on the iPad provided.<br><br>Click Submit when you have completed the
+    5 tests to see your score. Good luck!!
   beakers:
   - {fileID: 8619363732700642468}
   - {fileID: 8619363732532670321}

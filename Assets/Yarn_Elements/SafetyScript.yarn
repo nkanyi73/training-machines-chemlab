@@ -1,20 +1,37 @@
-﻿title: Eva
+﻿title: Safe1
 tags:
 ---
 
-//element 0
-//Intro
-Hello, My name is Eva. I will take you through the safety training for working in a Chemistry Lab. #line:0b22a68 
+This is your Safety Briefing. <br><br>Let's complete your safety training to avoid any accidents in the lab.<br><br>Press NEXT to start. #line:Safe01Brief
 
-//element 1
-//Hazard Awareness
+===
 
-//element 2
-//Hazard Tips
+title: Safe2
+tags:
+---
 
-//element 3
-//Safety Gear
+Check around the Chemistry Lab for any risks or hazards.<br><br>These could be anything that may cause damage or injury to you or others in the lab. #line:Safe02Check
 
-//element 4
-//Training Complete
+===
+
+title: Safe3
+tags:
+---
+
+Highlight any hazards that are around the lab with the pointer and the GRIP Button.<br><br>Hazards will be highlighted in RED.<br><br>There are 3 to find. #line:Safe03High
+===
+
+title: Safe4
+tags:
+---
+Before starting any experiment, safety gear must be worn to protect you from any hazards.<br><br>Put on the safety glasses on the table, and the Lab Coat from the door behind you. #line:Safe04Gear
+
+===
+
+title: Safe5
+tags:
+---
+
+BE careful of flames and sharp objects. <br><br>BE respectful of others whilst working.<br><br> PRESS NEXT to start the Flame Test #line:Safe05Next
+
 ===
