@@ -2898,6 +2898,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2438445532506214408, guid: abe51dfdf045c534cb42097e60c53c2b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2440876987857174357, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3136,7 +3141,7 @@ PrefabInstance:
     - target: {fileID: 9017547605666347562, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.95
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 9039478844246123641, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
@@ -5117,7 +5122,7 @@ Transform:
   m_GameObject: {fileID: 831924200}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7087,7 +7092,7 @@ Transform:
   m_GameObject: {fileID: 1087433283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.08764973, z: -0, w: 0.9961514}
-  m_LocalPosition: {x: 1.171, y: 0.732, z: 0.8}
+  m_LocalPosition: {x: 1.35, y: 0.75, z: 1.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13839,6 +13844,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -41.634
       objectReference: {fileID: 0}
+    - target: {fileID: 7994446196061921468, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994446196061921468, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994446196061921468, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4dc16b52bd1354bbe52a198097716d, type: 3}
     - target: {fileID: 8319219446184727426, guid: b6d42748e73f4c1418d142e023de8856,
         type: 3}
       propertyPath: m_Name
