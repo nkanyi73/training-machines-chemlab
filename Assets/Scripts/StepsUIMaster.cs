@@ -37,6 +37,7 @@ public class StepsUIMaster : MonoBehaviour
     [Header("Quiz GameObjects")]
     public GameObject iPad;
     public QuizController quizController;
+    public GameObject nextButton;
 
     // Start is called before the first frame update
     void Start()
@@ -212,6 +213,7 @@ public class StepsUIMaster : MonoBehaviour
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
         resetStepThreeButton.SetActive(false);
         iPad.SetActive(true);
+        nextButton.SetActive(false);
 
         for (int i = 0;i < beakers.Length; i++)
         {

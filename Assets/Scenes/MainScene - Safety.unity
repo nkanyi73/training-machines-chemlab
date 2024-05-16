@@ -1079,22 +1079,28 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: 'This is your Safety Briefing.
+      value: 'Let''s complete your safety training to avoid
+
+        any accidents
+        in the lab.
 
 
-        Let''s complete your safety
-        training to avoid
-
-        any accidents in the lab.
-
-
-        Press NEXT
-        to start.'
+        Press NEXT to start.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 89.064606
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -651.33594
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3867029551802331656, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -1179,7 +1185,7 @@ PrefabInstance:
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: Chemistry VR
+      value: This is your Safety Briefing
       objectReference: {fileID: 0}
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -1760,23 +1766,29 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: 'Safety Training Complete
+      value: '-> BE careful of flames and sharp objects.
 
 
-        -> BE careful of flames and sharp
-        objects.
+        -> BE respectful
+        of others whilst working.
 
 
-        -> BE respectful of others whilst working.
-
-
-        PRESS
-        NEXT to start the Flame Test'
+        PRESS NEXT to start the Flame Test'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 84.75999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -653.04517
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4693379483733039496, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -1856,7 +1868,7 @@ PrefabInstance:
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: Chemistry VR
+      value: Safety Training Complete
       objectReference: {fileID: 0}
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -2588,7 +2600,7 @@ PrefabInstance:
     - target: {fileID: 7084386685998634907, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.019
+      value: 7.21
       objectReference: {fileID: 0}
     - target: {fileID: 7084386685998634907, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
@@ -2613,7 +2625,7 @@ PrefabInstance:
     - target: {fileID: 7084386685998634907, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.33
+      value: -0.33000004
       objectReference: {fileID: 0}
     - target: {fileID: 7084386685998634907, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
@@ -3818,27 +3830,27 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: 'Safety Gear
+      value: 'Before starting any experiment, safety gear must be worn to protect
+        you from any hazards.
 
 
-        Before starting any experiment, safety gear
-
-        must
-        be worn to protect you from any
-
-        hazards.
-
-
-        Put on the safety
-        glasses on the table,
-
-
-        and the  Lab Coat from the door behind you'
+        Put on the safety glasses on the table, and
+        the  Lab Coat from the door behind you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 92.51962
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -655.5417
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4693379483733039496, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -3913,7 +3925,7 @@ PrefabInstance:
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: Chemistry VR
+      value: Safety Gear
       objectReference: {fileID: 0}
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -4275,14 +4287,29 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: "Hazard Awareness\n\nHighlight any hazards that are around\nthe lab
-        with the pointer and \nthe GRIP Button.\n\nHazards will be highlighted in
-        RED.\nThere are 3 to find."
+      value: 'Highlight any hazards that are around the lab with the pointer and
+        the GRIP Button.
+
+
+        Hazards will be highlighted in RED.
+
+        There
+        are 3 to find.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 83.411705
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -656.1028
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4693379483733039496, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -4362,7 +4389,7 @@ PrefabInstance:
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: Chemistry VR
+      value: Hazard Awareness
       objectReference: {fileID: 0}
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -4927,14 +4954,27 @@ PrefabInstance:
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: "Hazard Awareness\n\nCheck around the Chemistry Lab for\nany risks or
-        hazards.\n\nThese could be anything that may cause \ndamage or injury to
-        you or others in the lab."
+      value: 'Check around the Chemistry Lab for any risks or hazards.
+
+
+        These
+        could be anything that may cause  damage or injury to you or others in the
+        lab.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 83.98181
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -650.6941
       objectReference: {fileID: 0}
     - target: {fileID: 3644392292463189796, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4693379483733039496, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
@@ -5009,7 +5049,7 @@ PrefabInstance:
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}
       propertyPath: m_text
-      value: Chemistry VR
+      value: Hazard Awareness
       objectReference: {fileID: 0}
     - target: {fileID: 6714301295166900063, guid: 0d955f9fa17474d4a85f9a3441877852,
         type: 3}

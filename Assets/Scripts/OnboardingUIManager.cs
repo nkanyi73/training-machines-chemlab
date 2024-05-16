@@ -115,8 +115,13 @@ public class OnboardingUIManager : MonoBehaviour
 
     public void SwitchScene()
     {
-        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        StartCoroutine(SwitchSceneCoroutine());
+    }
 
+    private IEnumerator SwitchSceneCoroutine()
+    {
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("MainScene - Safety");
     }
 }

@@ -24,11 +24,25 @@ public class QuizController : MonoBehaviour
     public TMP_Text resultsTitle;
     public TMP_Text resultsBody;
 
+    Dictionary<int, string> chemicalsDict = new Dictionary<int, string>();
+    Dictionary<int, string> chemicalsColor = new Dictionary<int, string>();
+    private string resultDescription;
+
     private int[] chemicalsArray = new int[] { 0, 1, 2, 3, 4 };
     // Start is called before the first frame update
     void Start()
     {
-        
+        chemicalsDict.Add(0, "Calcium");
+        chemicalsDict.Add(1, "Potassium");
+        chemicalsDict.Add(2, "Lithium");
+        chemicalsDict.Add(3, "Copper");
+        chemicalsDict.Add(4, "Sodium");
+
+        chemicalsColor.Add(0, "Red-Orange");
+        chemicalsColor.Add(1, "Lilac");
+        chemicalsColor.Add(2, "Crimson");
+        chemicalsColor.Add(3, "Green");
+        chemicalsColor.Add(4, "Orange");
     }
 
     // Update is called once per frame
@@ -51,6 +65,10 @@ public class QuizController : MonoBehaviour
             if (dropDowns[i].value == chemicalsArray[i])
             {
                 correctAnswers++;
+                resultDescription += "Well Done!! You correctly identified " + chemicalsDict[chemicalsArray[i]] + " ions which burn with a " + chemicalsColor[chemicalsArray[i]] + " colour. <br><br>";
+            } else
+            {
+                resultDescription += "You misidentified " + chemicalsDict[chemicalsArray[i]] + " ions as " + chemicalsDict[dropDowns[i].value] + "ions. Remember " + chemicalsDict[dropDowns[i].value] + " ions burn with a " + chemicalsColor[dropDowns[i].value] + " colour. <br><br>";
             }
         }
         airtableManager.totalCorrect = correctAnswers.ToString();
@@ -68,7 +86,8 @@ public class QuizController : MonoBehaviour
         }
 
         resultsTitle.SetText("Your Results");
-        resultsBody.SetText("You scored "+ correctAnswers + "/5.<br><br>");
+        resultsBody.SetText(resultDescription);
+        resultsBody.fontSize = 30f;
 
     }
 
