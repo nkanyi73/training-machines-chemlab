@@ -8586,6 +8586,16 @@ PrefabInstance:
       propertyPath: potassiumFlame
       value: 
       objectReference: {fileID: 1750159547}
+    - target: {fileID: 7994446196061921468, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994446196061921468, guid: b6d42748e73f4c1418d142e023de8856,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4dc16b52bd1354bbe52a198097716d, type: 3}
     - target: {fileID: 8319219446184727426, guid: b6d42748e73f4c1418d142e023de8856,
         type: 3}
       propertyPath: m_Name
