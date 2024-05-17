@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 8924d16cb7ffbe341985173467768389,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 886eafc3ad895514184212a10ec982e0,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 9ea7d211c73baf4499d50ab5b53116f3,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -3240,7 +3240,7 @@ PrefabInstance:
     - target: {fileID: 2438445532506214408, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2440876987857174357, guid: abe51dfdf045c534cb42097e60c53c2b,
         type: 3}
@@ -7753,7 +7753,8 @@ MonoBehaviour:
   - Hold up each beaker to inspect the color of the salt solution. <br><br>As you
     can see only the copper chloride solution has a light blue color. The rest are
     clear. <br><br>Once you're done click Next to continue.
-  - 'To execute the flame test, you will need to use the Bunsen burner to your left. '
+  - To execute the flame test, you will need to use the Bunsen burner on the test
+    table.
   - For this experiment, the bunsen burner has been lit up for you.
   - Notice the color of the flame.<br><br>The flame has a bluish color and burns
     with a roaring sound.This is a luminous flame and is produced when the airhole
@@ -7763,34 +7764,32 @@ MonoBehaviour:
     the next part of the experiment.
   - 'Now take the Nichrome wire that we also call the test wire and dip it in the
     first beaker containing Potassium Chloride. '
-  - 'Hold the end of the test wire into the flame, and observe how the flame changes
-    color. '
-  - 'The flame should present a lilac color.<br><br> A lilac color appears in the
-    flame when Potassium ions are present.    '
+  - Hold the end of the test wire into the flame, and observe how the flame changes
+    color.<br><br>The flame should present a lilac color.
+  - 'A lilac color appears in the flame when Potassium ions are present.    '
   - 'Before testing the next solution, we must remove all the potassium chloride
     from the test wire. '
   - 'To do this, hold the end of the wire into the flame until it glows orange.<br><br>Then
     remove the test wire from the flame and allow to cool for 7 seconds. '
-  - 'Now dip the wire into the second beaker containing Lithium Chloride and repeat
-    the test.  '
-  - 'A crimson color appears in the flame when Lithium ions are present.<br><br>Remember
-    to clean the Nichrome wire once you''re done. '
-  - 'Now dip the wire into the third beaker containing Calcium Chloride and repeat
-    the test.  '
-  - A red-orange color appears in the flame when Calcium ions are present.<br><br>Once
-    again clean the Nichrome wire by holding in the flame.
-  - 'Now dip the wire into the fourth beaker containing Copper Chloride and repeat
-    the test. '
-  - 'A green color appears in the flame when Copper ions are present.<br><br>Don''t
-    forget to clean the Nichrome wire once you''re done. '
+  - Now dip the wire into the second beaker containing Lithium Chloride and repeat
+    the test.<br><br>A crimson color appears in the flame when Lithium ions are present
+  - Remember to clean the Nichrome wire once you're done.
+  - Now dip the wire into the third beaker containing Calcium Chloride and repeat
+    the test. <br><br>A red-orange color appears in the flame when Calcium ions are
+    present.
+  - Once again clean the Nichrome wire by holding in the flame.
+  - Now dip the wire into the fourth beaker containing Copper Chloride and repeat
+    the test.<br><br>A green color appears in the flame when Copper ions are present
+  - 'Don''t forget to clean the Nichrome wire once you''re done. '
   - Finally, dip the wire into the fifth beaker containing Sodium Chloride and repeat
-    the test.
-  - An orange color appears in the flame when Sodium ions are present. <br><br>Clean
-    the Nichrome wire one last time.
+    the test.<br><br>An orange color appears in the flame when Sodium ions are present.
+  - Clean the Nichrome wire one last time.
   - Congratulations on reaching the end of the experiment. Proceed to the test section
     if you're comfortable or replay the experience.
-  - Remember all that you've learnt.<br><br>There is an iPad on your right. Use that
-    to fill in your answers.<br><br>Good luck!!
+  - To test your new skills the beakers are now rearranged and labelled A to E.<br><br>Repeat
+    the test as you have been shown and record which chemical you think is in each
+    beaker on the iPad provided.<br><br>Click Submit when you have completed the
+    5 tests to see your score. Good luck!!
   beakers:
   - {fileID: 8619363732700642468}
   - {fileID: 8619363732532670321}
