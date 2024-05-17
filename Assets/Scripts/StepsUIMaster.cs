@@ -210,6 +210,7 @@ public class StepsUIMaster : MonoBehaviour
 
     public void SwitchToQuizStep()
     {
+        dialogueRunner.Stop();
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
         resetStepThreeButton.SetActive(false);
         iPad.SetActive(true);
@@ -224,5 +225,6 @@ public class StepsUIMaster : MonoBehaviour
         quizController.InstantiateQuizElements();
 
         mainCamera.GetComponent<OVRScreenFade>().FadeIn();
+        dialogueRunner.StartDialogue("Step4");
     }
 }
