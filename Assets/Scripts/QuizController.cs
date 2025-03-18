@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using Yarn.Unity;
 
 public class QuizController : MonoBehaviour
 {
@@ -23,9 +24,15 @@ public class QuizController : MonoBehaviour
     [Header("Results")]
     public TMP_Text resultsTitle;
     public TMP_Text resultsBody;
+    public GameObject resetButton;
 
-    Dictionary<int, string> chemicalsDict = new Dictionary<int, string>();
-    Dictionary<int, string> chemicalsColor = new Dictionary<int, string>();
+    private DialogueRunner dialogueRunner;
+    private GameObject mainCamera;
+    public GameObject nichromeWire;
+    public Transform nichromeWireTransform;
+
+    private Dictionary<int, string> chemicalsDict = new Dictionary<int, string>();
+    private Dictionary<int, string> chemicalsColor = new Dictionary<int, string>();
     private string resultDescription;
 
     private int[] chemicalsArray = new int[] { 0, 1, 2, 3, 4 };
@@ -43,6 +50,9 @@ public class QuizController : MonoBehaviour
         chemicalsColor.Add(2, "Crimson");
         chemicalsColor.Add(3, "Green");
         chemicalsColor.Add(4, "Orange");
+
+        dialogueRunner = FindObjectOfType<DialogueRunner>();
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
     // Update is called once per frame
@@ -52,13 +62,39 @@ public class QuizController : MonoBehaviour
 
         for (int i = 0; i < chemicalsArray.Length; i++)
         {
-            Instantiate(beakerPrefabs[chemicalsArray[i]], beakerTransforms[i]);
-            Instantiate(labelPrefabs[i], labelTransforms[i]);
+            GameObject solution = Instantiate(beakerPrefabs[chemicalsArray[i]], beakerTransforms[i]);
+            solution.tag = "Solution";
+            GameObject label = Instantiate(labelPrefabs[i], labelTransforms[i]);
+            label.tag = "Solution Label";
             
         }
     }
 
-    public void SubmitAnswers()
+    public void ResetQuiz ()
+    {
+        mainCamera.GetComponent<OVRScreenFade>().FadeOut();
+        resultDescription = "";
+        dialogueRunner.Stop();
+        GameObject[] solutionsArray = GameObject.FindGameObjectsWithTag("Solution");
+        GameObject[] solutionLabels = GameObject.FindGameObjectsWithTag("Solution Label");
+
+        for (int i = 0;i < solutionsArray.Length;i++)
+        {
+            Destroy(solutionsArray[i]);
+            Destroy(solutionLabels[i]);
+        }
+
+        InstantiateQuizElements();
+        nichromeWire.transform.position = nichromeWireTransform.position;
+        resultsTitle.SetText("Quiz Time");
+        resultsTitle.fontSize = 50;
+        resultsBody.SetText("To test your new skills the beakers are now rearranged and labelled A to E.<br><br>Repeat the test as you have been shown and record which chemical you think is in each beaker on the iPad provided.<br><br>Click Submit when you have completed the 5 tests to see your score. Good luck!!");
+        resultsBody.fontSize = 45;
+        mainCamera.GetComponent<OVRScreenFade>().FadeIn();
+        dialogueRunner.StartDialogue("Step4");
+    }
+
+    public async void SubmitAnswers()
     {
         for (int i = 0;i < dropDowns.Length;i++)
         {
@@ -68,7 +104,7 @@ public class QuizController : MonoBehaviour
                 resultDescription += "Well Done!! You correctly identified " + chemicalsDict[chemicalsArray[i]] + " ions which burn with a " + chemicalsColor[chemicalsArray[i]] + " colour. <br><br>";
             } else
             {
-                resultDescription += "You misidentified " + chemicalsDict[chemicalsArray[i]] + " ions as " + chemicalsDict[dropDowns[i].value] + "ions. Remember " + chemicalsDict[dropDowns[i].value] + " ions burn with a " + chemicalsColor[dropDowns[i].value] + " colour. <br><br>";
+                resultDescription += "You misidentified " + chemicalsDict[chemicalsArray[i]] + " ions as " + chemicalsDict[dropDowns[i].value] + " ions. Remember " + chemicalsDict[dropDowns[i].value] + " ions burn with a " + chemicalsColor[dropDowns[i].value] + " colour. <br><br>";
             }
         }
         airtableManager.totalCorrect = correctAnswers.ToString();
@@ -78,7 +114,7 @@ public class QuizController : MonoBehaviour
 
         try
         {
-            airtableManager.CreateRecord();
+            await airtableManager.CreateRecordAsync();
         }
         catch (Exception e)
         {
@@ -88,6 +124,7 @@ public class QuizController : MonoBehaviour
         resultsTitle.SetText("Your Results");
         resultsBody.SetText(resultDescription);
         resultsBody.fontSize = 30f;
+        resetButton.SetActive(true);
 
     }
 

@@ -122,7 +122,7 @@ public class OnboardingUIManager : MonoBehaviour
     {
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("MainScene - Safety");
+        SceneManager.LoadScene("Safety Scene");
     }
 }
 

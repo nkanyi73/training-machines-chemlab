@@ -3,7 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using System.Text;
 using UnityEngine;
 
 
@@ -203,6 +206,77 @@ public class AirtableManager : MonoBehaviour
 
             Debug.Log("From Airtable: Game Data: Coins: " + coinsFromAirtable + " Time Played: " + timePlayedFromAirtable +
                       " Health Data: " + healthFromAirtable + " Score Data: " + scoreFromAirtable);
+        }
+    }
+
+    public async Task CreateRecordAsync()
+    {
+        // Reset dataToLoad if it is not null
+        if (dataToLoad != null)
+        {
+            dataToLoad = null;
+        }
+
+        // Get the current date and time
+        dateTime = DateTime.Now.ToString("dd.MM.yyyy");
+        uuid = Guid.NewGuid().ToString();
+
+        // Create the URL for the API request
+        string url = airtableEndpoint + baseId + "/" + tableName;
+
+        // Create JSON data for the API request
+        string jsonFields = "{\"fields\": {" +
+                                    "\"Date\":\"" + dateTime + "\", " +
+                                    "\"UUID\":\"" + uuid + "\", " +
+                                    "\"Total Correct\":\"" + totalCorrect + "\", " +
+                                    "\"Total Wrong\":\"" + totalWrong + "\", " +
+                                    "\"Score\":\"" + score + "\"" +
+                                    "}}";
+
+        try
+        {
+            // Send the API request asynchronously
+            string response = await SendRequestAsync(url, HttpMethod.Post, jsonFields);
+
+            // Log the response from the API
+            Debug.Log("Record created: " + response);
+
+            // Store the response for parsing
+            dataToParse = response;
+
+            // Parse the JSON response
+            JSONParse();
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error while creating record: " + e.Message);
+        }
+    }
+
+    private async Task<string> SendRequestAsync(string url, HttpMethod method, string jsonData)
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            // Set authorization header
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+
+            // Create the request message
+            var requestMessage = new HttpRequestMessage(method, url);
+
+            // Include JSON data in the request if provided
+            if (!string.IsNullOrEmpty(jsonData))
+            {
+                requestMessage.Content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            }
+
+            // Send the request asynchronously
+            HttpResponseMessage responseMessage = await client.SendAsync(requestMessage);
+
+            // Ensure the request was successful
+            responseMessage.EnsureSuccessStatusCode();
+
+            // Read the response content as a string
+            return await responseMessage.Content.ReadAsStringAsync();
         }
     }
 }

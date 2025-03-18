@@ -12,6 +12,8 @@ TagManager:
   - Glasses
   - Coat
   - Flame
+  - Solution Label
+  - Solution
   layers:
   - Default
   - TransparentFX
