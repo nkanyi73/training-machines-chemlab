@@ -70,7 +70,11 @@ public class SafetyBriefBlackboard : MonoBehaviour
     {
         mainCamera.GetComponent<OVRScreenFade>().FadeOut();
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("Flame Test Scene");
+        // For Demo Version
+        SceneManager.LoadScene(0);
+
+        // For Main Version
+        //SceneManager.LoadScene(2);
     }
 
 }

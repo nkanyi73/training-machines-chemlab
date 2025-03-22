@@ -5,19 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Lightmapping Example/Lightmap WIP.unity
-    guid: 64cc869ebef830242b40a405cbca39cc
-  - enabled: 0
-    path: Assets/Scenes/MainScene - Chris.unity
-    guid: deb0c4c8aa711174fba6854b0c4ecc82
+  - enabled: 1
+    path: Assets/Scenes/1 Start Scene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Onboarding Scene.unity
     guid: bb8921a2d48a707478d093d85c9c0e5a
   - enabled: 1
     path: Assets/Scenes/Safety Scene.unity
     guid: 2dddf6d8178584b42a282d08e6cf3144
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Flame Test Scene.unity
     guid: 912072fd9d16ea1419ff965341214419
   m_configObjects:
