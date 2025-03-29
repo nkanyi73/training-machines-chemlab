@@ -1,4 +1,4 @@
-﻿title: Onboarding
+﻿title: Onboarding-1
 tags:
 ---
 
@@ -7,8 +7,11 @@ Welcome to Chemistry Lab VR. Before we get started, let's learn the controls.   
 //The image on the chalkboard shows your controllers. Take sometime to study it. 
 
 //Once you're done, aim the right or left controller toward the Next button below and press the trigger button to advance.
+===
 
-
+title: Onboarding-2
+tags:
+---
 
 Great job, now let's learn how to grab objects.  #line:0d22a77
 
@@ -17,8 +20,11 @@ Great job, now let's learn how to grab objects.  #line:0d22a77
 //Releasing the grip button will release the solution. 
 
 //Try doing this a couple of times until you're comfortable with picking up and dropping objects. Press Next to continue.
+===
 
-
+title: Onboarding-3
+tags:
+---
 
 Well done!! You are now ready to get into the lab!!  #line:041d982
 

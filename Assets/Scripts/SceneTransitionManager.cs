@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneTransitionManager : MonoBehaviour
 {
     public FadeScreen fadeScreen;
+    private Camera mainCamera;
     public static SceneTransitionManager singleton;
 
     private void Awake()
@@ -16,6 +17,11 @@ public class SceneTransitionManager : MonoBehaviour
         singleton = this;
     }
 
+    private void Start()
+    {
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+    }
+
     public void GoToScene(int sceneIndex)
     {
         StartCoroutine(GoToSceneRoutine(sceneIndex));
@@ -23,8 +29,9 @@ public class SceneTransitionManager : MonoBehaviour
 
     IEnumerator GoToSceneRoutine(int sceneIndex)
     {
-        fadeScreen.FadeOut();
-        yield return new WaitForSeconds(fadeScreen.fadeDuration);
+        mainCamera.gameObject.GetComponent<OVRScreenFade>().FadeOut();
+        yield return new WaitForSeconds(5);
+        mainCamera.gameObject.GetComponent<OVRScreenFade>().FadeIn();
 
         //Launch the new scene
         SceneManager.LoadScene(sceneIndex);
