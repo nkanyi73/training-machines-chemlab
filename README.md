@@ -1,59 +1,33 @@
-# Unity-Meta-Quest-Template
-Unity template project optimised for Meta Quest devices.
-Current Project Version Unity 2022.3.2f
+# Chemistry Lab VR
 
-Changes from default Unity project with Android build target:  
+Chemistry Lab VR is an educational virtual reality application developed for the Meta Quest 3. It provides an interactive platform for students to conduct metal ion flame tests, practice lab safety protocols, and test their knowledge through quizzes—all within a simulated lab environment.
 
-Packages:  
-Installed XR Plug-in Management. Targets Quest, Quest 2, Quest Pro  
-Installed OpenXR Plugin  
-Installed Oculus XR Plugin  
-Installed XR Interaction Toolkit version 2.4.0
-Installed XR Hands 1.2.1
-Installed Meta OpenXR Feature 0.1.1
-URP Samples imported (includes useful blob shadow shader)  
+## Features
 
-Quality Settings:  
-Custom Quality profiles  for Quest, Quest 2, Quest Pro, Quest 3. (Default Quest 2)  
-Vsync disabled  
-Anisotropic Textures set to Per Texture.  
-Shadowmask Mode set to Shadowmask  
-LOD Bias set to 0.7  
-Skin Weights set to 2 Bones  
+- **Virtual Chemistry Experiments:** Safely conduct metal ion flame tests with realistic flame color reactions.
+- **Lab Safety Training:** Learn essential lab safety procedures and equipment handling.
+- **Interactive Robot Guide:** Receive step-by-step guidance from a virtual assistant throughout the experience.
+- **Engaging Quiz Mode:** Test your knowledge by identifying unknown solutions and receive instant feedback.
+- **Data Collection:** The app collects a randomly generated UUID, quiz scores, and quiz completion dates. No personal data is collected.
 
-Player Settings:  
-Auto Graphics API disabled, set to OpenGL ES 3.0  
-Texture Compression format set to ATSC  
-Minimum API Level set to Android 10.0 (API Level 29)  
-Lightmap encoding set to High Quality  
-HDR Cubemap encoding set to High Quality  
-Use Incremental GC enabled 
-Scripting Backend set to IL2CPP  
-IL2CPP Code generation set to Faster (smaller) builds *Change this to Faster runtime for release build  
-Target Architecture set to Arm64  
-Active Input Handling set to Both  
-Optimize Mesh Data enabled   
+## Platforms
 
+- Meta Quest 3 (Support for other Quest devices planned)
 
-Physics Settings:  
-Reuse Collision Callbacks enabled  
-Default Max Angular Speed set to 7 
-Enabled Improved Patch Friction 
+## Installation
 
-Time Settings:  
-Maximum Allowed Timestep set to 0.0138 (for 72 Hz)  
+- Access it on the Meta Quest Store by clicking [here.](https://www.meta.com/en-gb/experiences/chemistry-lab-vr/25785779247734698/)
 
-URP Renderer Settings:  
-Shadows – Transparent Receive Shadows disabled   
+## Controls
 
-URP Pipeline asset settings for Quest 2: (minor differences for Quest 1 and Quest Pro)  
-Disable Terrain Holes  
-Main Light – Cast Shadows disabled  
-Additional Lights set to Per Pixel  
+- Use Meta Quest Touch controllers to interact with lab equipment and navigate the environment.
+- Press the grip button to pick up objects and the trigger to interact with UI elements.
+- Use the joystick to move and rotate in the lab space.
 
-Notes:  
-The project is set up to have to realtime shadows and no additional lights.
-Adjust URP shadow settings according to the needs of your game/app.   
-For release builds enable Low Overhead Mode under Oculus XR Plug-in Management options.  
+## Trailer
 
-Cornell Box model taken form Sketchfab - Cornell Box- Original - Download Free 3D model by t-ly (@t-ly) https://sketchfab.com/3d-models/cornell-box-original-0d18de8d108c4c9cab1a4405698cc6b6
+[![Watch the video](https://img.youtube.com/vi/zg5UVz37AWI/0.jpg)](https://www.youtube.com/watch?v=zg5UVz37AWI)
+
+## Feedback
+
+- Your feedback is invaluable. Please share your thoughts, feature requests, or bug reports via email: 2345656@swansea.ac.uk
