@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1 Start Scene.unity
+    path: Assets/Scenes/Start Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Onboarding Scene.unity
@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Safety Scene.unity
     guid: 2dddf6d8178584b42a282d08e6cf3144
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Flame Test Scene.unity
     guid: 912072fd9d16ea1419ff965341214419
   m_configObjects:
